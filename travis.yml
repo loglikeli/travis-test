@@ -12,4 +12,4 @@ before_install:
   - docker build -t testimage .
 
 script:
-  - docker run testimage"
+  - docker run testimage
